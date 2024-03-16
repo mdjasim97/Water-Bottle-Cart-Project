@@ -1,0 +1,21 @@
+.bottle {
+    border: 2px solid seagreen;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.bottle img {
+    width: 200px;
+}
+
+.bottle-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.btn-bg {
+    background-color: black;
+    color: #ffffff;
+}

@@ -1,0 +1,11 @@
+.cart-container img {
+    width: 100px;
+    margin: 15px;
+}
+
+.cart-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin-bottom: 20px;
+}
